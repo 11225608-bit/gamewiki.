@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GameWiki: descubra jogos, histórias, curiosidades e vídeos de gameplay.">
+  <title>GameWiki — Universo dos Games</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" id="brandHome"><span class="brand-icon">G</span> GameWiki</a>
+    <nav><a href="#" id="navHome">Início</a><a href="#biblioteca" id="navGames">Jogos</a></nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <span class="eyebrow">SUA ENCICLOPÉDIA DE GAMES</span>
+        <h1>Encontre seu próximo<br><span>jogo favorito.</span></h1>
+        <p>Explore mundos, conheça histórias e descubra o que torna cada jogo especial.</p>
+        <a class="primary-button" href="#biblioteca">Explorar jogos <span>→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="controller">🎮</div><span class="spark spark-one">✦</span><span class="spark spark-two">✧</span>
+      </div>
+    </section>
+
+    <section class="library section-wrap" id="biblioteca">
+      <div class="section-heading">
+        <div><span class="eyebrow">BIBLIOTECA</span><h2>Explore os jogos</h2><p>Escolha um jogo para ver sua página completa.</p></div>
+        <span class="game-count" id="gameCount">15 jogos</span>
+      </div>
+      <div class="toolbar">
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Pesquisar jogo..." aria-label="Pesquisar jogo"></label>
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="Todos">Todos</button>
+          <button class="filter" data-filter="Ação">Ação</button>
+          <button class="filter" data-filter="Aventura">Aventura</button>
+          <button class="filter" data-filter="Esporte">Esporte</button>
+          <button class="filter" data-filter="Sobrevivência">Sobrevivência</button>
+          <button class="filter" data-filter="Mundo aberto">Mundo aberto</button>
+        </div>
+      </div>
+      <div class="game-grid" id="gameGrid"></div>
+      <p class="empty-state" id="emptyState" hidden>Nenhum jogo encontrado. Tente outro nome ou categoria.</p>
+    </section>
+
+    <section class="detail section-wrap" id="detailView" hidden>
+      <button class="back-button" id="backButton">← Voltar para os jogos</button>
+      <div id="detailContent"></div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#"><span class="brand-icon">G</span> GameWiki</a><p>Feito para quem gosta de descobrir novos mundos.</p><small>© 2026 GameWiki. Site informativo feito por fãs; marcas e jogos pertencem aos seus respectivos proprietários.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
