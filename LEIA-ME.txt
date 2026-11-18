@@ -1,0 +1,25 @@
+GAMEWIKI — ARQUIVOS DO SITE
+
+Arquivos:
+- index.html: estrutura da página
+- estilo.css: aparência e layout
+- script.js: catálogo, pesquisa, filtros e páginas de detalhes
+
+COMO TESTAR:
+1. Extraia todos os arquivos para a mesma pasta.
+2. Abra index.html no navegador.
+3. Mantenha os três arquivos juntos.
+
+COMO PUBLICAR PARA USAR NO GOOGLE SITES:
+O endereço público ainda precisa ser publicado em uma hospedagem. Uma opção gratuita é o GitHub Pages:
+1. Crie/entre em uma conta no GitHub.
+2. Crie um repositório público chamado gamewiki.
+3. Envie os três arquivos para a raiz do repositório.
+4. Em Settings > Pages, escolha Deploy from a branch, selecione main e / (root), e salve.
+5. O GitHub mostrará o endereço público do site. Aguarde a publicação.
+6. No Google Sites, use Inserir > Incorporar > URL e cole esse endereço.
+
+OBSERVAÇÕES:
+- As imagens externas precisam de internet para carregar; alguns provedores podem alterar ou bloquear imagens.
+- Alguns jogos não têm vídeo incorporado definido. Nesses casos, a página mostra uma busca do YouTube para encontrar vídeos atuais.
+- Este é um projeto de fã, não afiliado às empresas dos jogos.
